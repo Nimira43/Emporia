@@ -103,9 +103,18 @@
             <button class="company-btn">all</button>
             <button class="company-btn">rival</button>
           </article>
-          
+          <h4>Price</h4>
+          <form class="price-form">
+            <input type="range" class="price-filter" min="0" value="50" max="100">
+          </form>
+          <p class="price-value"></p>
         </div>
       </div>
+      <div class="products-container"></div>
     </section>
+    <div class="page-loading">
+      <h2>Loading...</h2>
+    </div>
+    <script type="module" src="products.js"></script>
 </body>
 </html>
