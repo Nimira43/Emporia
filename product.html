@@ -1,49 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" type="image/png" href="./images/billy.png">
-  <title>Emporia | Home</title>
-</head>
-<body>
-  <nav class="navbar">
-    <div class="nav-centre">
-      <div>
-        <button class="toggle-nav">
-          <i class="fa-solid fa-bars-staggered"></i>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./images/billy.png">
+    <title>Emporia | Home</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-centre">
+        <div>
+          <button class="toggle-nav">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">
+                home *
+              </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link">
+                products
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">
+                about
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h2 class="nav-logo">Emporia</h2>
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="section-centre">
+        <h3 class="page-hero-title">Home | Single Product</h3>
+      </div>
+    </section>  
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <button class="sidebar-close">
+          <i class="fa-solid fa-times"></i>
         </button>
-        <ul class="nav-links">
+        <ul class="sidebar-links">
           <li>
-            <a href="index.html" class="nav-link">
+            <a href="index.html" class="sidebar-link">
+              <i class="fa-solid fa-house fa-fw"></i>
               home *
             </a>
           </li>
           <li>
-            <a href="products.html" class="nav-link">
+            <a href="products.html" class="sidebar-link">
+              <i class="fa-solid fa-bed fa-fw"></i>
               products
             </a>
           </li>
           <li>
-            <a href="about.html" class="nav-link">
+            <a href="about.html" class="sidebar-link">
+              <i class="fa-solid fa-book-open fa-fw"></i>
               about
             </a>
           </li>
         </ul>
-      </div>
-      <h2 class="nav-logo">Emporia</h2>
-      <div class="toggle-container">
-        <button class="toggle-cart">
-          <i class="fa-solid fa-basket-shopping"></i>
+      </aside>
+    </div>
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fa-solid fa-times"></i>
         </button>
-        <span class="cart-item-count">1</span>
-      </div>
+        <header>
+          <h3 class="text-slanted">basket</h3>
+        </header>
+        <div class="cart-items"></div>
+        <footer>
+          <h3 class="cart-total text-slanted">
+            total: £14.53
+          </h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
     </div>
-  </nav>
 
-  <section class="page-hero">
-    <div class="section-centre">
-      <h3 class="page-hero-title">Home | Single Product</h3>
+    <div class="page-loading">
+      <h2>loading...</h2>
     </div>
-  </section>
+    <script type="module" src="product.js"></script>
+  </body>
+</html>
