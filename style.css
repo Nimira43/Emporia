@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  --white: #faebd7;
+  --dark: #111;
+  --light: #f5f5f5; 
+  --grey-lg: #b0b0b0;
+  --grey-md: #999;
+  --grey-dk: #333;
+
+  --pink: #e7c3b3;
+  --lace: #fff1e0;
+  --floral: #fff9f5;
+  --primary: #0d7680;
+  --secondary: #264653;
+
+  --transition: all 0.3s ease-in-out;
+  --spacing: 1px;
+  --brad-sm: 3px; 
+  --brad-md: 5px; 
+  --brad-lg: 8px; 
+
+}
