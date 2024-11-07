@@ -92,3 +92,31 @@ p {
     line-height: 1;
   }
 }
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.section-centre {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.btn {
+  background: var(--secondary);
+  color: var(--lace);
+  border-radius: var(--brad-md);
+  padding: 0.375rem 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  border-color: transparent;
+  cursor: pointer
+}
