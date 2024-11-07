@@ -19,5 +19,8 @@
   --brad-sm: 3px; 
   --brad-md: 5px; 
   --brad-lg: 8px; 
-
+  --shad-lg: 0 5px 15px (rgba(0, 0, 0, 0.1))
+  --shad-dk: 0 5px 15px (rgba(0, 0, 0, 0.2))
+  --max-width: 1170px;
+  --fixed-width: 620px;
 }
