@@ -298,7 +298,8 @@ section {
   text-transform: uppercase;
   letter-spacing: var(--spacing);
   border-radius: var(--brad-md);
-  transition: var(--transition)
+  transition: var(--transition);
+  font-weight: 500;
 }
 
 .hero-btn:hover {
