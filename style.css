@@ -11,15 +11,12 @@
 }
 
 :root {
-  --white: #faebd7;
   --dark: #111;
   --light: #f5f5f5; 
   --grey-lg: #b0b0b0;
   --grey-md: #999;
   --grey-dk: #333;
 
-  --pink: #e7c3b3;
-  --lace: #fff1e0;
   --floral: #fff9f5;
   --primary: #0d7680;
   --secondary: #264653;
@@ -114,7 +111,7 @@ section {
 
 .btn {
   background: var(--secondary);
-  color: var(--white);
+  color: var(--floral);
   border-radius: var(--brad-md);
   padding: 0.375rem 0.75rem;
   text-transform: uppercase;
@@ -137,7 +134,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-/* .page-loading {
+.page-loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -147,7 +144,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .navbar {
   height: 6rem;
@@ -172,7 +169,7 @@ section {
 .toggle-nav {
   background: var(--secondary);
   border-color: transparent;
-  color: var(--white);
+  color: var(--floral);
   width: 3.75rem;
   height: 2.25rem;
   display: flex;
@@ -211,11 +208,10 @@ section {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  color: var(--white);
+  color: var(--floral);
   font-weight: 600;
   font-size: 1rem;
 }
-
 
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -226,5 +222,32 @@ section {
     top: 50%;
     left: 65%;
     transform: translate(-50%, -50%);
+  }
+  .toggle-nav {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  .nav-link {
+    color: var(--floral);
+    margin-right: 3rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+    font-size: 1.25rem;
+  }
+  .nav-link:hover {
+    color: var(--secondary)
+  }
+  .page .nav-link {
+    color: var(--grey-dk);
+  }
+  .page .nav-link:hover {
+    color: var(--secondary;
+  }
+  .page .toggle-cart {
+    color: var(--grey-dk);
   }
 }
