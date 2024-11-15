@@ -18,8 +18,8 @@
   --grey-dk: #333;
 
   --floral: #fff9f5;
-  --primary: #0d7680;
-  --secondary: #264653;
+  --primary: #1560d8;
+  --secondary: #062385;
 
   --transition: all 0.3s ease-in-out;
   --spacing: 1px;
@@ -95,8 +95,7 @@ p {
   display: block;
 }
 
-.text-slanted,
-.nav-logo {
+.text-slanted {
   font-family: 'Great Vibes', cursive;
 }
 .section-centre {
@@ -166,6 +165,13 @@ section {
   display: none;
 }
 
+.nav-logo {
+  color: var(--floral);
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
 .toggle-nav {
   background: var(--secondary);
   border-color: transparent;
@@ -194,7 +200,7 @@ section {
   background: transparent;
   border-color: transparent;
   font-size: 1.6rem;
-  color: var(--secondary);
+  color: var(--floral);
   cursor: pointer;
 }
 
@@ -202,7 +208,7 @@ section {
   position: absolute;
   top: -0.85rem;
   right: -0.85rem;
-  background: var(--dark);
+  background: var(--secondary);
   width: 1.75rem;
   height: 1.75rem;
   display: grid;
@@ -219,9 +225,9 @@ section {
   }
   .nav-logo {
     position: absolute;
-    top: 50%;
-    left: 65%;
-    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 70%;
+    font-size: 50px;
   }
   .toggle-nav {
     display: none;
@@ -241,13 +247,79 @@ section {
   .nav-link:hover {
     color: var(--secondary)
   }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-logo {
+    top: 70%;
+    left: 70%;
+    font-size: 60px;
+  }
   .page .nav-link {
     color: var(--grey-dk);
   }
   .page .nav-link:hover {
-    color: var(--secondary;
+    color: var(--secondary);
   }
   .page .toggle-cart {
     color: var(--grey-dk);
+  }
+}
+
+.hero {
+  min-height: 100vh;
+  margin-top: -6rem;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/hero.jpg') center/cover;
+  display: grid;
+  place-items: center;
+  color: var(--floral);
+}
+
+.hero-container {
+  width: 90vw;
+  max-width: var(--max-width);
+}
+
+.hero h3 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.hero-btn {
+  color: var(--floral);
+  background: transparent;
+  border: 1px solid var(--floral);
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  margin-top: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  border-radius: var(--brad-md);
+  transition: var(--transition)
+}
+
+.hero-btn:hover {
+  background: var(--floral);
+  color: var(--secondary);
+}
+
+@media screen and (min-width: 800px) {
+  .hero h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero h1 {
+    font-size: 5.25rem;
+    letter-spacing: 5px;
+  }
+  .hero h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
   }
 }
