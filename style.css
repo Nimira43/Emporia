@@ -83,7 +83,7 @@ p {
   margin: 0 auto;
 }
 
-section {
+.section {
   padding: 5rem 0;
 }
 
@@ -196,6 +196,18 @@ section {
   color: var(--floral);
   font-weight: 600;
   font-size: 1rem;
+}
+
+.page .nav-link {
+  color: var(--light);
+}
+
+.page .nav-link:hover {
+  color: var(--primary);
+}
+
+.page .toggle-cart {
+  color: var(--light)
 }
 
 .hero {
