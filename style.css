@@ -285,6 +285,17 @@ p {
   transform: scale(1);
 }
 
+.sidebar-close {
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--primary);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
 
 @media screen and (min-width: 992px) {
   .nav-logo {
