@@ -270,6 +270,21 @@ p {
   z-index: 100;
 } */
 
+.sidebar {
+  width: 90vw;
+  height: 95vh;
+  max-width: var(--max-width);
+  background: var(--light);
+  border-radius: var(--brad-md);
+  box-shadow: var(--shad-dk);
+  position: relative;
+  padding: 4rem;
+  /* transform: scale(0); */
+}
+.show .sidebar {
+  transform: scale(1);
+}
+
 
 @media screen and (min-width: 992px) {
   .nav-logo {
