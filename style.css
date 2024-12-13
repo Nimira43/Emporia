@@ -274,7 +274,7 @@ p {
   width: 90vw;
   height: 95vh;
   max-width: var(--max-width);
-  background: var(--light);
+  background: var(--dark);
   border-radius: var(--brad-md);
   box-shadow: var(--shad-dk);
   position: relative;
@@ -289,13 +289,24 @@ p {
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--primary);
+  color: var(--light);
   position: absolute;
   top: 1rem;
   right: 1rem;
   cursor: pointer;
 }
 
+.sidebar-link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.sidebar-link i {
+  color: var(--light);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
 
 @media screen and (min-width: 992px) {
   .nav-logo {
@@ -371,6 +382,9 @@ p {
   .hero h3 {
     font-size: 1.5rem;
     margin: 1rem 0;
+  }
+  .sidebar-overlay {
+    display: none;
   }
 }
 
