@@ -69,27 +69,6 @@ p {
   color: var(--grey-dk);
 }
 
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1, h2, h3, h4 {
-    line-height: 1;
-  }
-}
-
 .img {
   width: 100%;
   display: block;
@@ -219,37 +198,6 @@ section {
   font-size: 1rem;
 }
 
-@media screen and (min-width: 800px) {
-  .nav-center {
-    position: relative;
-  }
-  .nav-logo {
-    position: absolute;
-    top: 70%;
-    left: 70%;
-    font-size: 50px;
-  }
-  .toggle-nav {
-    display: none;
-  }
-  .nav-links {
-    display: flex;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-  }
-  .nav-link {
-    color: var(--floral);
-    margin-right: 3rem;
-    letter-spacing: var(--spacing);
-    transition: var(--transition);
-    font-size: 1.25rem;
-  }
-  .nav-link:hover {
-    color: var(--secondary)
-  }
-}
-
-
 .hero {
   min-height: 100vh;
   margin-top: -6rem;
@@ -326,10 +274,6 @@ section {
   .page .toggle-cart {
     color: var(--grey-dk);
   }
-}
-
-
-@media screen and (min-width: 992px) {
   .hero h1 {
     font-size: 5.25rem;
     letter-spacing: 5px;
@@ -341,8 +285,54 @@ section {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1, h2, h3, h4 {
+    line-height: 1;
+  }
+  .nav-center {
+    position: relative;
+  }
+  .nav-logo {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    font-size: 50px;
+  }
+  .toggle-nav {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  .nav-link {
+    color: var(--floral);
+    margin-right: 3rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+    font-size: 1.25rem;
+  }
+  .nav-link:hover {
+    color: var(--secondary)
+  }
   .hero h3 {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
 }
+
