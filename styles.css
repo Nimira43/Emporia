@@ -93,6 +93,12 @@ p {
   display: block;
 }
 
+.logo {
+  background-color: var(--light);
+  padding: var(--size-3);
+  border-radius: var(--size-8);
+}
+
 .text-slanted {
   font-family: 'Great Vibes', cursive;
 }
