@@ -1,1 +1,1 @@
-import './js/toggleSidebar.js'
+import './src/toggleSidebar.js'
