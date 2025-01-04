@@ -6,3 +6,7 @@ const getElement = (selection) => {
     `Please check "${selection}" selector, no such element exist`
   )
 }
+
+export {
+  getElement
+}
