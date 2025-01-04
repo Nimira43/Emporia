@@ -1,5 +1,3 @@
-console.log('Toggle Sidebar - working')
-
 import { getElement } from './utils.js'
 
 const toggleNav = getElement('.toggle-nav')
