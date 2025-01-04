@@ -3,11 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" href="./images/billy.png">
   <link rel="stylesheet" href="styles.css">
   <title>Emporia</title>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div>
+        <button class="toggle-nav">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              home *
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="nav-link">
+              products
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">
+              about
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <h2 class="nav-logo">Emporia</h2> -->
+      <img src="./images/cat.svg" alt="logo" class="nav-logo">
+      <div class="toggle-container">
+        <button class="toggle-cart">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+        <span class="cart-item-count">1</span>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-container">
+      <h1 class="text-slanted">
+        a world of comfort
+      </h1>
+      <h3>Explore our Selections</h3>
+      <a href="products.html" class="hero-btn">
+        see more
+      </a>
+    </div>
+  </section>
   <script src="script.js" type="module"></script>
 </body>
 </html>
