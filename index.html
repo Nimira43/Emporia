@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" href="./images/billy.png">
   <link rel="stylesheet" href="styles.css">
-  <title>Emporia</title>
+  <title>Emporia | Home</title>
 </head>
 <body>
   <nav class="navbar">
@@ -53,7 +53,7 @@
       </a>
     </div>
   </section>
-  <div class="sidebar-overlay show">
+  <div class="sidebar-overlay">
     <aside class="sidebar">
       <button class="sidebar-close">
         <i class="fa-solid fa-times"></i>
@@ -80,28 +80,29 @@
       </ul>
     </aside>
   </div>
+  <div class="cart-overlay">
+    <aside class="cart">
+      <button class="cart-close">
+        <i class="fa-solid fa-times"></i>
+      </button>
+      <header>
+        <h3 class="text-slanted">basket</h3>
+      </header>
+      <div class="cart-items"></div>
+      <footer>
+        <h3 class="cart-total text-slanted">
+          total: £14.53
+        </h3>
+        <button class="cart-checkout btn">checkout</button>
+      </footer>
+    </aside>
+  </div>
   <script src="index.js" type="module"></script>
 </body>
 </html>
 
 
-<!-- <div class="cart-overlay">
-  <aside class="cart">
-    <button class="cart-close">
-      <i class="fa-solid fa-times"></i>
-    </button>
-    <header>
-      <h3 class="text-slanted">basket</h3>
-    </header>
-    <div class="cart-items"></div>
-    <footer>
-      <h3 class="cart-total text-slanted">
-        total: £14.53
-      </h3>
-      <button class="cart-checkout btn">checkout</button>
-    </footer>
-  </aside>
-</div>
+<!-- 
 
 <section class="section-featured">
   <div class="title">
