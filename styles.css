@@ -623,7 +623,7 @@ p {
   padding: var(--rem-2) 0;
 }
 
-.single-product-center {
+.single-product-centre {
   margin: var(--rem-2) auto;
   display: grid;
   gap: var(--rem-1) var(--rem-2);

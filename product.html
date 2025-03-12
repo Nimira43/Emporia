@@ -1,119 +1,122 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" type="image/png" href="./images/billy.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>Emporia</title>
-</head> -->
-
-<!-- <nav class="navbar">
-  <div class="nav-centre">
-    <div>
-      <button class="toggle-nav">
-        <i class="fa-solid fa-bars-staggered"></i>
-      </button>
-      <ul class="nav-links">
-        <li>
-          <a href="index.html" class="nav-link">
-            home 
-          </a>
-        </li>
-        <li>
-          <a href="products.html" class="nav-link">
-            products
-          </a>
-        </li>
-        <li>
-          <a href="about.html" class="nav-link">
-            about
-          </a>
-        </li>
-      </ul>
-    </div>
-    <h2 class="nav-logo">Emporia</h2>
-    <div class="toggle-container">
-      <button class="toggle-cart">
-        <i class="fa-solid fa-basket-shopping"></i>
-      </button>
-      <span class="cart-item-count">1</span>
-    </div>
-  </div>
-</nav>
-
-<section class="page-hero">
-  <div class="section-centre">
-    <h3 class="page-hero-title">Single Product</h3>
-  </div>
-</section>  
-
-<div class="sidebar-overlay">
-  <aside class="sidebar">
-    <button class="sidebar-close">
-      <i class="fa-solid fa-times"></i>
-    </button>
-    <ul class="sidebar-links">
-      <li>
-        <a href="index.html" class="sidebar-link">
-          <i class="fa-solid fa-house fa-fw"></i>
-          home 
-        </a>
-      </li>
-      <li>
-        <a href="products.html" class="sidebar-link">
-          <i class="fa-solid fa-bed fa-fw"></i>
-          products
-        </a>
-      </li>
-      <li>
-        <a href="about.html" class="sidebar-link">
-          <i class="fa-solid fa-book-open fa-fw"></i>
-          about
-        </a>
-      </li>
-    </ul>
-  </aside>
-</div>
-
-<div class="cart-overlay">
-  <aside class="cart">
-    <button class="cart-close">
-      <i class="fa-solid fa-times"></i>
-    </button>
-    <header>
-      <h3 class="text-slanted">basket</h3>
-    </header>
-    <div class="cart-items"></div>
-    <footer>
-      <h3 class="cart-total text-slanted">
-        total: £14.53
-      </h3>
-      <button class="cart-checkout btn">checkout</button>
-    </footer>
-  </aside>
-</div>
-
-<section class="single-product">
-  <div class="section-centre single-product-centre">
-    <img src="./images/placeholder.png" alt="" class="single-product-img img">
-    <article class="single-product-info">
-      <div>
-        <h2 class="single-product-title">The Henry David Thoreau Suite</h2>
-        <p class="single-product-company text-slanted">by Emporia</p>
-        <p class="single-product-price">£4,299</p>
-        <div class="single-product-colours"></div>
-        <p class="single-product-desc">Introducing Emporia's luxurious new 3-piece suite, the Henry David Thoreau Suite, featuring two exquisite armchairs and a plush sofa. Each piece is meticulously crafted for ultimate comfort and style, blending timeless elegance with modern innovation.</p>
-        <p class="single-product-desc">Priced at £4,299, this elegant set transforms any living space into a sanctuary of relaxation and sophistication. Experience unparalleled quality and design excellence with the Henry David Thoreau Suite by Emporia.</p>
-        <button class="addToCartBtn btn" data-id="id">
-          add to basket
-        </button>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./images/billy.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Emporia | Single Product</title>
+  </head>
+  <body>
+    <nav class="navbar page">
+      <div class="nav-center">
+        <div>
+          <button class="toggle-nav">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">
+                home 
+              </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link">
+                products
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">
+                about
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/cat.svg" alt="logo">
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
       </div>
-    </article>
-  </div>
-</section>
+    </nav>
 
-<div class="page-loading">
-  <h2>loading...</h2>
-</div> -->
+    <section class="page-hero">
+      <div class="section-centre">
+        <h3 class="page-hero-title">Single Product</h3>
+      </div>
+    </section>  
+
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <button class="sidebar-close">
+          <i class="fa-solid fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link">
+              <i class="fa-solid fa-house fa-fw"></i>
+              home 
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="sidebar-link">
+              <i class="fa-solid fa-bed fa-fw"></i>
+              products
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="sidebar-link">
+              <i class="fa-solid fa-book-open fa-fw"></i>
+              about
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fa-solid fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">basket</h3>
+        </header>
+        <div class="cart-items"></div>
+        <footer>
+          <h3 class="cart-total text-slanted">
+            total: £14.53
+          </h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+
+    <section class="single-product">
+      <div class="section-centre single-product-centre">
+        <img src="./images/living.jpg" alt="" class="single-product-img img">
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">The Henry David Thoreau Suite</h2>
+            <p class="single-product-company">by Emporia</p>
+            <p class="single-product-price">£4,299</p>
+            <div class="single-product-colours"></div>
+            <p class="single-product-desc">Introducing Emporia's luxurious new 3-piece suite, the Henry David Thoreau Suite, featuring two exquisite armchairs and a plush sofa. Each piece is meticulously crafted for ultimate comfort and style, blending timeless elegance with modern innovation.</p>
+            <p class="single-product-desc">Priced at £4,299, this elegant set transforms any living space into a sanctuary of relaxation and sophistication. Experience unparalleled quality and design excellence with the Henry David Thoreau Suite by Emporia.</p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to basket
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- <div class="page-loading">
+      <h2>loading...</h2>
+    </div> -->
+  </body>
+</html>
+
