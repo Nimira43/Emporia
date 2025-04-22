@@ -96,7 +96,7 @@ p {
 .logo {
   background-color: var(--light);
   padding: var(--size-3);
-  border-radius: var(--size-8);
+  border-radius: var(--size-3);
 }
 
 .text-slanted {
