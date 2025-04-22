@@ -182,7 +182,7 @@ p {
   align-items: center;
   justify-content: center;
   font-size: var(--rem-1-5);
-  border-radius: var(--rem-2);
+  border-radius: var(--size-3);
   cursor: pointer;
   transition: var(--transition);
 }
