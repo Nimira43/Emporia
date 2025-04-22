@@ -88,6 +88,10 @@ p {
   color: var(--grey-md);
 }
 
+a {
+  text-transform: uppercase;
+}
+
 .img {
   width: 100%;
   display: block;
